@@ -2313,7 +2313,7 @@ Resolve IPNS names.
 - `recursive` [bool]: Resolve until the result is not an IPNS name. Default: `true`. Required: no.
 - `nocache` [bool]: Do not use cached entries. Required: no.
 - `dht-record-count` [uint]: Number of records to request for DHT resolution. Default: `16`. Required: no.
-- `dht-timeout` [string]: Max time to collect values during DHT resolution eg &#34;30s&#34;. Pass 0 for no timeout. Default: `1m0s`. Required: no.
+- `dht-timeout` [string]: Max time to collect values during DHT resolution e.g. &#34;30s&#34;. Pass 0 for no timeout. Default: `1m0s`. Required: no.
 - `stream` [bool]: Stream entries as they are found. Required: no.
 
 
